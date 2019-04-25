@@ -4,7 +4,7 @@ $(function(){
       
     // console.log(yid)
     $.ajax({
-        url:"http://my2/yuxinxi",
+        url:"my2/yuxinxi",
         type:"get",
          data:{yid},
         dataType:"json" //JSON.parse()
@@ -132,7 +132,7 @@ $(function(){
                 //  alert('有必填信息未填');
         }else{
             $.ajax({
-                url:"http://my2/insertyud",
+                url:"my2/insertyud",
                 type:"get",
                 data:{tjres},
                 dataType:"json" 

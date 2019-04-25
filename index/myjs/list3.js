@@ -145,7 +145,7 @@ $(function(){
             personal.lxtime=am+'-'+pm;
 
             $.ajax({
-                url:"http://my2/insertdz",
+                url:"my2/insertdz",
                 type:"get",
                 data:{personal},
                 dataType:"json" 

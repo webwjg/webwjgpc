@@ -3,10 +3,10 @@
 <head lang="en">
     <meta charset="UTF-8">
     <meta name='viewport' content='width=device-width,initial-scale=1'/>
-    <link rel="stylesheet" href="../../css/bootstrap.css"/>
-    <script src="../../js/jquery.min.js"></script>
-    <script src="../../js/popper.min.js"></script>
-    <script src="../../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
     <title></title>
     <style>
         *{
@@ -174,7 +174,7 @@ var upval3=$('#phone').val();
                 }
             }
         };
-        xhr.open('post','http://127.0.0.1:3000/my2/my2insert',true);
+        xhr.open('post','my2/my2insert',true);
         var formdata='uname='+uname.value+'&upwd='+upwd.value+'&email='+email.value
                 +'&phone='+phone.value+'&user_name='+user_name.value;
         xhr.setRequestHeader('Content-type','application/x-www-form-urlencoded');

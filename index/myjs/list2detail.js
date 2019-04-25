@@ -4,7 +4,7 @@ $(function(){
       var bid=location.search.split("=")[1];
        console.log(bid);
        $.ajax({
-        url:"http://my2",
+        url:"my2",
         type:"get",
         data:{bid},
         dataType:"json" //JSON.parse()
@@ -265,7 +265,7 @@ var ydnews={date:'',night:'',num:'',outdate:''};
 //ajax发送数据
 
 $.ajax({
-    url:"http://my2/yuding",
+    url:"my2/yuding",
     type:"post",
     data:{ydnews},
     dataType:"json" //JSON.parse()
@@ -275,7 +275,7 @@ $.ajax({
      sessionStorage.setItem("yid",result.data);
        console.log(yid)
      if(result.msg==1){
-     location.href=`http://127.0.0.1:5500/index/list6car.html`; 
+     location.href=`index/list6car.html`; 
      }
 
      
