@@ -4,7 +4,7 @@ $(function(){
       var bid=location.search.split("=")[1];
        console.log(bid);
        $.ajax({
-        url:"http://127.0.0.1:3000/my2",
+        url:"http://my2",
         type:"get",
         data:{bid},
         dataType:"json" //JSON.parse()
@@ -265,7 +265,7 @@ var ydnews={date:'',night:'',num:'',outdate:''};
 //ajax发送数据
 
 $.ajax({
-    url:"http://127.0.0.1:3000/my2/yuding",
+    url:"http://my2/yuding",
     type:"post",
     data:{ydnews},
     dataType:"json" //JSON.parse()

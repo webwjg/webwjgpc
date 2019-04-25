@@ -4,7 +4,7 @@ $(function(){
 
 //发送请求
    $.ajax({
-      url:"http://127.0.0.1:3000/my2/indexlunbo",
+      url:"http://my2/indexlunbo",
       type:"get",
       //data:,
       dataType:"json" //JSON.parse()
@@ -35,7 +35,7 @@ $(function(){
 
         // 一楼
   $.ajax({
-     url:"http://127.0.0.1:3000/my2/indexonefl",
+     url:"http://my2/indexonefl",
      type:"get",
             //data:,
      dataType:"json" //JSON.parse()
@@ -64,7 +64,7 @@ $(function(){
 //二楼
 
 $.ajax({
-    url:"http://127.0.0.1:3000/my2/indextwofl",
+    url:"http://my2/indextwofl",
     type:"get",
     dataType:"json"
      }).then(function(result){
@@ -109,7 +109,7 @@ $.ajax({
  
     //  三楼
  $.ajax({
-        url:"http://127.0.0.1:3000/my2/indexthreefl",
+        url:"http://my2/indexthreefl",
         type:"get",
         dataType:"json"
          }).then(function(result){
@@ -223,7 +223,7 @@ anim(thranim,a1,anum);
 
 // 四楼
 $.ajax({
-    url:"http://127.0.0.1:3000/my2/indexfourfl",
+    url:"http://my2/indexfourfl",
     type:"get",
     dataType:"json"
      }).then(function(result){
@@ -296,7 +296,7 @@ anim(four2,a,b);
 
 // 五楼
 $.ajax({
-    url:"http://127.0.0.1:3000/my2/indexfivefl",
+    url:"http://my2/indexfivefl",
     type:"get",
     dataType:"json"
      }).then(function(result){
@@ -442,7 +442,7 @@ searchvalue.keypress(function(e){
          val.title=searchvalue.val();
          
          $.ajax({
-            url:"http://127.0.0.1:3000/my2/search",
+            url:"http://my2/search",
             type:"get",
             data:{val},
             dataType:"json"
