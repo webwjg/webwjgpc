@@ -1,0 +1,194 @@
+a{
+    text-decoration: none !important;
+}
+
+#bottom{
+    background: url(../../img/footer-bg.jpg) no-repeat;
+    background-size:100% 100%;
+}
+@media (min-width:992px) {
+    #bottom {
+        height:29rem;
+        width:100%;
+    }
+}
+@media (max-width: 992px){
+    #bottom{
+        height:26rem;
+        width:100%;
+    }
+}
+
+
+.totop>div>div{
+    height:3rem;
+    width: 0.1rem;
+    background: #736357;
+}
+#bottom .tt a{
+    color:#736357;
+}
+#bottom ul li:nth-child(1) a{
+    color:#124eff;
+    font-weight: 600;
+}
+#bottom ul a{
+    color:#736357;
+}
+#bottom ul li{
+    margin-top:1rem;
+}
+/*�±ߵ��ұ�*/
+#bleft img{
+    height:12rem;
+
+}
+@media (max-width:576px) {
+    #bright img{
+        width:40%;
+        height:40%;
+    }
+    #bright{
+        text-align: left !important;
+        display: flex;padding-bottom:12rem !important;
+    }
+    #bottom{
+        height:32rem;
+    }
+    #bottom ul li{
+        display: flex;
+        font-size:0.5rem;
+    }
+    #bleft div:nth-child(4){
+        display: none;
+    }
+    #bleft div:nth-child(6){
+        display: none;
+    }
+    #bright img{
+       display:none;
+    }
+    #bleft div:last-child{
+        display:none;
+    }
+    #bright{
+        margin-left:15% !important;
+        margin-top:20% !important;
+    }
+    #bright div{
+        width:100%;
+        display: flex;
+    }
+    #bright div input{
+         width:100%;
+
+    }
+    #bright div button{
+        width:80%;
+        font-size: 0.2rem;
+        margin-left: 0.7rem !important;
+    }
+}
+@media (max-width:630px){
+    #bright>div{
+        margin-left:0.9rem !important;
+    }
+}
+@media (max-width: 992px) {
+    #bright img{
+        width:40%;
+        height:40%;
+    }
+    #bright{
+        text-align: left !important;
+        display: flex;padding-bottom:12rem !important;
+    }
+    #bottom{
+        height:32rem;
+    }
+    #bottom ul li{
+        display: flex;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 右下角 */
+#ccc-icon {
+    position: fixed;
+    bottom: 0;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    z-index: 4;
+}
+ #ccc-icon {
+    right: 0;
+		
+}
+ #ccc-icon svg {
+    fill: #736357!important;
+}
+
+#ccc-icon svg #star path {
+    fill: #fff!important;
+ }
+  #d1{
+		font-size:66px;
+	}
+	.contental {
+	  height:40rem;
+		width: 35rem;
+		border:2px solid #000;
+    position: fixed;
+    overflow-y: auto;
+    padding: 24px;
+    box-sizing: border-box;
+		margin:0 auto;
+		background: rgba(0,0,0,.2);
+
+    width: 90%;
+    height: 90%;
+    max-height: 600px;
+    max-width: 600px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    border-radius: 12px;
+		transition:5s;
+		display:none;
+
+}
+.contentbl{
+	display:block;
+}
+
+		
+	.removecon{
+		z-index: 1;
+    width: 40px;
+    height: 40px;
+    background-color: #eddaab;
+    border-radius: 50%;
+	  position: absolute;
+    right: 16px;
+    top: 16px;
+    text-align:center;
+		line-height:40px;
+    cursor: pointer;
+	}

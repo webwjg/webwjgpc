@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width,initial-scale=1'/>
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <title></title>
+    <link rel="stylesheet" href="my1css/my2style.css"/>
+    <script src="myjs/my2index.js" charset="gbk"></script>
+    <script src="myjs/jquery-3.2.1.js"></script>
+    <style> </style>
+
+</head>
+<body>
+<div class="container-fluid p-0">
+        <div class="fzz"></div>
+<div id="top">
+    <div id="yemei" class="">
+        <div id="dropdown" class="navbar  navbar-expand-md bg-light navbar-light">
+           <!--下拉菜单-->
+            <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
+                <a href="#" class="navbar-brand dropdown">天宇</a>
+            </button>
+            <!--下拉菜单内容-->
+            <div id="biaoyu" class="dropdown-menu">
+                <a class="dropdown-item text-white">
+                    旅游是一场心灵的翱翔,天宇会带给你一场梦一样的翱翔
+                </a>
+            </div>
+
+            <!--导航栏内容,大屏幕平铺,小屏隐藏-->
+            <div id="daohang" class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="">简介</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://baike.baidu.com/item/%E9%A9%BB%E9%A9%AC%E5%BA%97/140955?fr=aladdin">百科</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">社区</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">行程</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">独家</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">天宇App</a></li>
+                </ul>
+                 <!-- //首页 +logo -->
+                <!-- <div class="logoin h-100">
+                    <a href="http://127.0.0.1:5500/index/index.html#">
+                        <img src="../img/logo.png" alt="">
+                    </a> 
+                </div> -->
+
+            </div>
+            <!--三条横线-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#daohang">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+           
+
+            <!--注册登录搜索框-->
+            <div id='search' class="search">
+                <a class="" href="../my2js/my2html/my2insert.html">注册</a>
+                <a href="../my2js/my2html/loading.html">登录</a>
+                <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
+                    <a href="#" class="navbar-brand dropdown">
+                        <img class="" src="../img/serach.png" alt=""/>
+                    </a>
+                </button>
+                <!--下拉菜单内容-->
+                <div class="dropdown-menu border-0">
+                    <a class="dropdown-item ">
+                        <input id='searchvalue' class="searchvalue" class="p-0 w-100"  type="text" placeholder="来一场说走就走的旅行"/>
+                    </a>
+                </div>
+            </div>
+
+
+        </div> <!-- 导航-->
+
+     </div> <!-- 页眉-->
+
+    <!--轮播图-->
+    <div id="demo" class="carousel text-center" data-ride="carousel">
+        <!--图片-->
+        <div class="carousel-inner">
+            <!-- <div class="carousel-item active">
+                <a href="list1detail?bid=1"><img class="w-100 " src="../img/lunbo1.jpg" alt=""/></a>
+            </div>
+            <div class="carousel-item ">
+                <a href="list1detail?bid=1"><img class="w-100 " src="../img/lunbo2.jpg" alt=""/></a>
+            </div>
+            <div class="carousel-item ">
+                <a href="javascript:;"><img class="w-100 " src="../img/lunbo3.jpg" alt=""/></a>
+            </div>
+            <div class="carousel-item ">
+                <a href="javascript:;"> <img class="w-100 " src="../img/lunbo4.jpg" alt=""/></a>
+            </div> -->
+        </div>
+        <!--轮播指示器-->
+        
+        <ul class="carousel-indicators">
+            <li class="active" data-slide-to="0" data-target="#demo"></li>
+            <li  data-slide-to="1" data-target="#demo"></li>
+            <li  data-slide-to="2" data-target="#demo"></li>
+            <li  data-slide-to="3" data-target="#demo"></li>
+        </ul>
+        <!--作用箭头-->
+        <a href="#demo" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#demo" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+</div>
+
+
+
+<!--主体-->
+<div id="center">
+    <!--一楼-->
+    <h4 class="text-center mt-5">看天高云淡</h4>
+    <div id="onefloor">
+        <!--//上二-->
+        <div class="row w-100 p-0 m-0">
+
+            <!-- <div class="wrap col-lg-3 col-sm-6 p-0">
+                <div class="tile  w-100">
+                    <img class="h-100" src="../img/god1.png">
+                    <div class="text h-75">
+                        <h2>Lorem ipsum.</h2>
+                        <h4 class="animate-text">1More lorem ipsum bacon ipsum.</h4>
+                        <p class="animate-text">
+                             书籍好比一架梯子.它能引导我们登上知识的殿堂.书籍如同一把钥匙.它将帮助我们开启心灵的智慧之窗.时间好比一个良医.它能教我们医治流血的伤口.时间如同一位慈母.它将帮助我们抚平心灵的创伤 
+                        </p>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- <div class="wrap col-lg-3  col-sm-6 p-0">
+                <div class="tile">
+                    <img class="h-100" src="../img/god2.png">
+                    <div class="text">
+                        <h2>Lorem ipsum.</h2>
+                        <h4 class="animate-text">More lorem ipsum bacon ipsum.</h4>
+                        <p class="animate-text">
+                            只有波涛汹涌的大海.才能创造出沙滩的光洁与柔软.而平静的湖边.只好让污泥环绕,只有狂风暴雨.才能洗涤污泥浊水.而和风细雨.只能留下泥沙,只有一望无际的森林.才能创造出大地的翠绿与娇美.而孤独的树木.只好任狂风摧残..
+                        </p>
+                    </div>
+                </div>
+            </div> -->
+        <!--下二-->
+            <!-- <div class="wrap col-lg-3  col-sm-6 p-0 ">
+                <div class="tile">
+                    <img class="h-100" src="../img/god3.png">
+                    <div class="text">
+                        <h2>Lorem ipsum.</h2>
+                        <h4 class="animate-text">More lorem ipsum bacon ipsum.</h4>
+                        <p class="animate-text">
+                            书是我的精神食粮.它 重塑了我的灵魂,当裴多菲说:[若为自由故.二者皆可抛".我懂得了作为人的价值,当鲁迅说:[不在沉默中爆发.就在沉默中灭亡".我懂得了人应具有的反抗精神,当白朗宁说:[拿走爱.世界将变成一座坟墓".我懂得了为他人奉献爱心是多么重要.
+                        </p>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- <div class="wrap col-lg-3  col-sm-6 p-0">
+                <div class="tile">
+                    <img class="h-100" src="../img/god4.png">
+                    <div class="text">
+                        <h2>Lorem ipsum.</h2>
+                        <h4 class="animate-text">More lorem ipsum bacon ipsum.</h4>
+                        <p class="animate-text">
+                            用不着把年轻的心灵装点得沉重.表面上的沧桑.外在的严肃.并不能让你上升为哲人,离开所有的朋友.你有的只能是孤单的背影.既然现在的我还不能变得深刻.那么.我就让自己变得轻松.哭丧着脸的人.怎能听清花开的响声,伪装自己的人.又怎能听懂蛙鸣一片里的激动.
+                        </p>
+                    </div>
+                </div>
+            </div> -->
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <!--<div id="floor1" class="row m-0 mt-4 p-0 ">-->
+        <!--<div class="col col-lg-3 col-md-6 col-sm-12 p-0 ">-->
+            <!--<div class="mr-1 mb-1">-->
+                <!--<a  class="h-100 w-100 d-inline-block" href="">-->
+                    <!--<div class="before1">-->
+                        <!--<img class="w-100 h-100" src="../img/god1.png" alt=""/>-->
+                    <!--</div>-->
+                    <!--<table></table>-->
+                    <!--<div class="after1">书籍好比一架梯子.它能引导我们登上知识的殿堂.书籍如同一把钥匙.它将帮助我们开启心灵的智慧之窗.时间好比一个良医.它能教我们医治流血的伤口.时间如同一位慈母.它将帮助我们抚平心灵的创伤.-->
+                    <!--</div>-->
+                <!--</a>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="col col-lg-3 col-md-6 col-sm-12 p-0">-->
+            <!--<div class="mr-1 mb-1">-->
+                <!--<a class="h-100 w-100 d-inline-block" href="">-->
+                    <!--<div class="before1">-->
+                        <!--<img class="w-100 h-100" src="../img/god5.png" alt=""/>-->
+                    <!--</div>-->
+                    <!--<div class="after1">只有波涛汹涌的大海.才能创造出沙滩的光洁与柔软.而平静的湖边.只好让污泥环绕,只有狂风暴雨.才能洗涤污泥浊水.而和风细雨.只能留下泥沙,只有一望无际的森林.才能创造出大地的翠绿与娇美.而孤独的树木.只好任狂风摧残.-->
+                    <!--</div>-->
+                <!--</a>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="col col-lg-3 col-md-6 col-sm-12 p-0">-->
+            <!--<div class="mr-1 mb-1">-->
+                <!--<a class="h-100 w-100 d-inline-block" href="">-->
+                    <!--<div class="before1">-->
+                        <!--<img class="w-100 h-100" src="../img/god3.png" alt=""/>-->
+                    <!--</div>-->
+                    <!--<div class="after1">书是我的精神食粮.它 重塑了我的灵魂,当裴多菲说:[若为自由故.二者皆可抛".我懂得了作为人的价值,当鲁迅说:[不在沉默中爆发.就在沉默中灭亡".我懂得了人应具有的反抗精神,当白朗宁说:[拿走爱.世界将变成一座坟墓".我懂得了为他人奉献爱心是多么重要.-->
+                    <!--</div>-->
+                <!--</a>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="col col-lg-3 col-md-6 col-sm-12 p-0">-->
+            <!--<div class="mb-1 mr-1">-->
+                <!--<a class="h-100 w-100 d-inline-block" href="">-->
+                    <!--<div class="before1">-->
+                        <!--<img class="w-100 h-100" src="../img/god4.png" alt=""/>-->
+                    <!--</div>-->
+                    <!--<div class="after1">用不着把年轻的心灵装点得沉重.表面上的沧桑.外在的严肃.并不能让你上升为哲人,离开所有的朋友.你有的只能是孤单的背影.既然现在的我还不能变得深刻.那么.我就让自己变得轻松.哭丧着脸的人.怎能听清花开的响声,伪装自己的人.又怎能听懂蛙鸣一片里的激动.-->
+                    <!--</div>-->
+                <!--</a>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+
+    <!--二楼-->
+    <h4 class="text-center mt-5">望云卷云舒</h4>
+    <div class="demo ">
+        <div class="container">
+            <div id="floor2" class="row h-100">
+                <!-- <div class="col-lg-6 col-sm-12 h-100 text-right">
+                    <div class="box h-100">
+                        <div class="box-img h-100">
+                            <img class="h-100" src="../img/twofloor1.jpg" alt="">
+                        </div>
+                        <div class="box-content">
+                            <h4 class="title">Duende</h4>
+                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae libero orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed vestibulum.</p>
+                            <ul class="social-links">
+                                <li><a href="#" class="fa fa-qq"></a></li>
+                                <li><a href="#" class="fa fa-weibo"></a></li>
+                                <li><a href="#" class="fa fa-weixin"></a></li>
+                            </ul>
+                            <a class="buttons" href="javascript:;">
+                              
+                                <div class="btn btn1">
+                                    <span class="circle"></span>
+                                    <span class="text">go travel</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+<!-- 
+                <div class="col-lg-6 col-sm-12 h-100 text-left">
+                    <div class="box h-100">
+                        <div class="box-img h-100">
+                            <img class="h-100" src="../img/twofloor2.jpg" alt="">
+                        </div>
+                        <div class="box-content">
+                            <h4 class="title">Cafune</h4>
+                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae libero orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed vestibulum.</p>
+                            <ul class="social-links">
+                                <li><a href="#" class="fa fa-qq"></a></li>
+                                <li><a href="#" class="fa fa-weibo"></a></li>
+                                <li><a href="#" class="fa fa-weixin"></a></li>
+                            </ul>
+                            <a class="buttons" href="javascript:;">
+                            
+                                <div class="btn btn1">
+                                    <span class="circle"></span>
+                                    <span class="text">go travel</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!--<div id="floor2" class="row p-0 m-0 mt-5">-->
+        <!--<div class="col-lg-6 col-sm-12  text-right p-0">-->
+            <!--<div class="h-100">-->
+                <!--<h5 class="h-100 w-75 border " >-->
+                    <!--<img class="flface w-100 h-100" src="../img/twofloor1.jpg" alt=""/>-->
+                    <!--<div class="flback1">-->
+                            <!--<span>-->
+                              <!--生命不是一篇"文摘"，不接受平淡，只收藏精彩。她是一个完整的过程，是一个"连载"，无论成功还是失败，她都不会在你背后留有空白；生命也不是一次彩排，走得不好还可以从头再来，她绝不给你第二次机会，走过去就无法回头。-->
+                            <!--</span>-->
+
+                            <!--<a href="javascript:;">→</a>-->
+                    <!--</div>-->
+                <!--</h5>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="col-lg-6 col-sm-12 text-left p-0">-->
+            <!--<div class="h-100">-->
+                <!--<h5 class="h-100 w-75 border">-->
+                    <!--<img class="flface w-100 h-100" src="../img/twofloor2.jpg" alt=""/>-->
+                    <!--<div class="flback1">-->
+                        <!--<span>-->
+                            <!--用不着为一次小小的挫折而痛哭流涕.人生本来就充满坎坷.没有创伤的珍珠贝.怎会有闪烁迷人的晶莹.跌几次跤.摔几次跟头.是经常的事.如果在一条阴沟里都翻了船.你的人生一定苍白.绝对不会生动.如果败了.我可以从头再来.如果胜了.我可以把脚下的基石夯硬.-->
+                        <!--</span>-->
+                        <!--<a href="javascript:;">→</a>-->
+                    <!--</div>-->
+                <!--</h5>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+
+    <!--三楼-->
+    <div class="row p-0 m-0 mt-5 mb-5">
+        <div class="clo-sm-6 w-50 text-right" >
+            <span class="mr-4">
+                <a class="h5" href="">叶落无痕雪飞花</a>
+            </span>
+        </div>
+        <div class="clo-sm-6 w-50 text-left">
+            <span class="ml-4">
+                <a class="h5" href="">
+                    追马踏燕落天涯
+                </a>
+            </span>                                                                                                                                      
+        </div>
+    </div>
+    <div id="floor3" class="row mt-4 p-0 m-0">
+        <div class="col-12 h-100 p-0 m-0" >
+            <div id="flbig" class="w-100 h-100">
+                <div class="flo h-100 w-100" >
+                    <ul id='box' class="h-100">
+                       <!-- <li>
+                             <img class="imgs" name="imgs" class="d-flex d-block w-100 h-00" src="../img/threefloor1.jpg" alt=""/>
+                        </li> 
+                        <li>
+                            <img class="imgs" name="imgs" class="d-flex d-block w-100 h-00" src="../img/threefloor2.jpg" alt=""/>
+                        </li>
+                        <li>
+                            <img class="imgs" name="imgs" class="d-flex d-block w-100 h-00" src="../img/threefloor3.jpg" alt=""/>
+                        </li>
+                        <li>
+                            <img class="imgs" name="imgs" class="d-flex d-block w-100 h-00" src="../img/threefloor4.jpg" alt=""/>
+                        </li>    -->
+                    </ul>
+                </div>
+                <div class="floortext">
+                    <h3>领略大好风光</h3>
+                    <p>在自由竞争状态,自然选择淘汰了劣者，在专制状态，人工选择淘汰了优者，惟有平庸者永远幸免，有最耐久的生命力
+                    </p>
+                    <!--<button>go to see</button>-->
+                    <a id='threebtn'  href='javascript:;' class="buttons">
+                        <div class="btn btn1">
+                            <span class="circle"></span>
+                            <span class="text">go to see</span>
+                        </div>
+                    </a>
+                </div>
+                   <!--//按钮样式左-->
+                <div  class="tab-slider__controls__prev slick-arrow position-absolute" style="display: block;">
+                    <svg class="prev2" xmlns="http://www.w3.org/2000/svg" width="86.742" height="73.216" viewBox="0 0 86.742 73.216">
+                        <path d="M22.897 73.216L0 48.158 44.032 0v6.983L27.159 25.498l17.248 18.94L84.897 0v6.985L68.533 24.942l18.209 19.961v7.01L65.35 28.435 47.593 47.931l16.681 18.304v6.981l-40.299-44.22L6.468 48.207l16.429 18.028z">
+                        </path>
+                    </svg>
+                </div>
+                <span class="position-absolute"></span>
+                <!--//按钮样式右-->
+                <div class="tab-slider__controls__next slick-arrow position-absolute" style="display: block;">
+                    <svg class="next2" xmlns="http://www.w3.org/2000/svg" width="86.742" height="73.216" viewBox="0 0 86.742 73.216">
+                        <path d="M63.845 73.216l22.897-25.058L42.71 0v6.983l16.873 18.515-17.248 18.94L1.845 0v6.985l16.364 17.957L0 44.903v7.01l21.392-23.478 17.757 19.496-16.681 18.304v6.981l40.299-44.22 17.507 19.211-16.429 18.028z">
+                        </path>
+                    </svg>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--四楼-->
+    <h4 class="text-center mt-5">领略风土人情</h4>
+    <div id='fourfl' class="row mt-5 p-0 m-0">
+        <div id="fourfloorleft" class="col-lg-8   border-primary p-0 m-0">
+            <img  src="" alt="">
+            <span class="text-white h6 mb-5">----EXPERIENCE</span>
+            <div>
+                <h3>天高云淡</h3>
+                <p>
+                    风吹起如花般破碎的流年，而你的笑容摇晃摇晃，成为我命途中最美的点缀，看天，看雪，看季节深深的暗影
+                </p>
+                <a id='fourbtn'  href='javascript:;' class="buttons">
+                    <div class="btn btn1">
+                        <span class="circle"></span>
+                        <span class="text">go to see</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!--四楼右边-->
+        <div  class="fourfloorright col-lg-2 col-sm-6 p-0 m-0 border-primary">
+            <div class="d-flex flex-column w-100  justify-content-between h-100">
+                <!-- <img class="h-33" src="../img/fourfloor5.jpg" alt=""/>
+                <img class="h-33" src="../img/fourfloor6.jpg" alt=""/>
+                <img class=" h-33" src="../img/fourfloor7.jpg" alt=""/> -->
+            </div>
+        </div>
+        <div  class="fourfloorright col-lg-2 col-sm-6 p-0 m-0 border-primary">
+            <div class="d-flex flex-column w-100  justify-content-between h-100">
+                <!-- <img class="h-33" src="../img/fourfloor8.jpg" alt=""/>
+                <img class="h-33" src="../img/fourfloor9.jpg" alt=""/>
+                <img class=" h-33" src="../img/fourfloor10.jpg" alt=""/> -->
+            </div>
+        </div>
+    </div>
+
+    <!--五楼-->
+    <h4 class="text-center mt-5">邀请函</h4>
+    <div id="fivefloor" class="row border-primary m-0 p-0 mt-5">
+            <!--左边-->
+            <div class="col-sm-1"></div>
+            <div id="fiveleft" class="float-left col-lg-4  m-0 p-0">
+                <!-- <img class="w-100 float-left" src="../img/fivefloor1.png" alt=""/>
+                <div class="position-absolute ">
+                    超大的字
+                </div> -->
+            </div>
+            <!--右边-->
+            <div class="col-lg-6 col-sm-10 m-0  p-0 w-100">
+                <div id='huixuan' class="row ml-1 w-100 h-100 m-0 p-0">
+                    <!--右边的左边两张图-->
+                    <!-- <div class="col-lg-6 col-sm-6 h-100 p-0 m-0">
+                        <div class="h-50 w-100">
+                            <img class="h-100 w-100 float-left" src="../img/fivefloor2.jpg" alt=""/>
+                            <div class="zhezhao position-absolute"> 超大的字</div>
+                        </div>
+                        <div class="h-50 w-100">
+                            <img class="h-100 w-100 float-left" src="../img/fivefloor3.jpg" alt=""/>
+                            <div class="zhezhao position-absolute"> 超大的字</div>
+                        </div>
+                    </div> -->
+                    <!-- 右边的右边的两张图
+                   <div class="col-lg-6 col-sm-6  h-100 p-0 m-0">
+                       <div class="h-50 w-100">
+                           <img class="h-100 w-100 float-left" src="../img/fivefloor4.jpg" alt=""/>
+                           <div class="zhezhao position-absolute"> 超大的字</div>
+                       </div>
+                       <div class="h-50 w-100">
+                           <img class="h-100 w-100 float-left" src="../img/fivefloor5.jpg" alt=""/>
+                           <div class="zhezhao position-absolute"> 超大的字</div>
+                       </div>
+                   </div> -->
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>  <!--五楼-->
+</div>   <!--主体-->
+
+
+<div id="bottom" class="mt-5">
+    <div class="totop row m-0 p-0">
+        <div class="tt col-12 m-0 p-0 text-center" >
+            <div class="m-auto"></div>
+            <a  href="#">BACK TO TOP</a>
+        </div>
+    </div>
+    <div class=" row mt-5 m-0 p-0">
+        <div class="col-1 m-0 p-0"></div>
+        <div class="footleft col-lg-1 col-sm-6 m-0 p-0">
+            <ul class="list-unstyled">
+                <li><a href="">关于我们</a></li>
+                <li><a href="">天宇简介</a></li>
+                <li><a href="">联系我们</a></li>
+                <li><a href="">合作伙伴</a></li>
+            </ul>
+        </div>
+        <div class="footleft col-lg-1 col-sm-6 m-0 p-0">
+            <ul class="list-unstyled">
+                <li><a href="">加入我们</a></li>
+                <li><a href="">招聘职位</a></li>
+            </ul>
+        </div>
+        <div class="footleft col-lg-1 col-sm-6 m-0 p-0">
+            <ul class="list-unstyled">
+                <li><a href="">网站条款</a></li>
+                <li><a href="">会员条款</a></li>
+                <li><a href="">社区指南</a></li>
+                <li><a href="">版权声明</a></li>
+                <li><a href="">免责声明</a>  </li>
+            </ul>
+        </div>
+        <div class="footleft col-lg-1 col-sm-6 m-0 p-0">
+            <ul class="list-unstyled">
+                <li><a href="">帮助中心</a>  </li>
+                <li><a href="">新手上路</a>  </li>
+                <li><a href="">使用帮助</a>  </li>
+                <li><a href="">网站地图</a>  </li>
+                <li><a href="">旅行工具</a>  </li>
+            </ul>
+        </div>
+        <div class="col-1"></div>
+        <!--右边-->
+        <div id="bleft" class="col-lg-5 col-sm-12 m-0 p-0 text-center align-self-center">
+            <img class="" src="../img/bl.png" alt=""/>
+            <div class="d-inline-block ml-4 align-self-center">
+                <input class="d-inline-block" type="text"/>
+                <button class="btn d-block mt-4 ml-4">get our news</button>
+            </div>
+        </div>
+        <div class="col-1  m-0 p-0"></div>
+    </div>
+
+</div>
+<!-- 右下角 -->
+<div id="ccc-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 72.5 72.5" enable-background="new 0 0 72.5 72.5" xml:space="preserve"><g id="triangle">
+    <path d="M72.5,72.5H0L72.5,0V72.5z"></path>
+    </g><g id="star">
+    <path d="M62.2,51.9l-3.9-2.6l1.6-4.4l-4.7,0.2L54,40.6l-3.7,2.9l-3.7-2.9l-1.2,4.5l-4.7-0.2l1.6,4.4l-3.9,2.6l3.9,2.6l-1.6,4.4l4.7-0.2l1.2,4.5l3.7-2.9l3.7,2.9l1.2-4.5l4.7,0.2l-1.6-4.4L62.2,51.9z M53.6,55.3c-0.3,0.4-0.8,0.8-1.3,1s-1.1,0.3-1.9,0.3c-0.9,0-1.7-0.1-2.3-0.4s-1.1-0.7-1.5-1.4c-0.4-0.7-0.6-1.6-0.6-2.6c0-1.4,0.4-2.5,1.1-3.3c0.8-0.8,1.8-1.1,3.2-1.1c1.1,0,1.9,0.2,2.6,0.7s1.1,1.1,1.4,2L52,50.9c-0.1-0.3-0.2-0.5-0.3-0.6c-0.1-0.2-0.3-0.4-0.5-0.5s-0.5-0.2-0.7-0.2c-0.6,0-1.1,0.2-1.4,0.7c-0.2,0.4-0.4,0.9-0.4,1.7c0,1,0.1,1.6,0.4,2c0.3,0.4,0.7,0.5,1.2,0.5c0.5,0,0.9-0.1,1.2-0.4s0.4-0.7,0.6-1.2l2.3,0.7C54.2,54.3,54,54.8,53.6,55.3z">
+    </path>
+    </g>
+ </svg>
+</div>
+<div id='dd' class='contental'>
+   <p class='removecon'>x</p>
+   <div class=contin>
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel voluptatibus dolor perspiciatis maiores distinctio architecto veritatis dicta? Facere, repellendus unde fugit dolor reiciendis nesciunt voluptas velit, enim laboriosam, saepe esse. 
+   </div>
+</div>
+
+
+</div><!-- 主体 -->
+</body>
+</html>

@@ -1,0 +1,210 @@
+html{
+    height:100%;
+}
+
+
+.my_header,.my_footer{
+    width: 100%;
+}
+a{
+    text-decoration: none !important;
+}
+header,footer{
+    display: flex;
+}
+@media screen and (min-width:1200px){
+    .my_header,header{
+        height:50rem;
+    }
+    .my_footer,footer{
+        height:29rem;
+    }
+
+}
+@media screen and (max-width:1200px){
+    .my_header,header{
+        height:50rem;
+    }
+    .my_footer,footer{
+        height:29rem;
+    }
+}
+@media screen and (max-width:992px ) {
+    .my_header,header{
+        height:33rem;
+    }
+    .my_footer,footer{
+        height:32rem;
+
+    }
+}
+@media screen and  (max-width:576px ){
+    .my_header,header{
+        height:23.8rem;
+    }
+    .my_footer,footer{
+        height:32rem;
+    }
+}
+/* 一楼 */
+/* 按钮样式 */
+.bar:nth-child(1){
+    background: #2b2d42;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons .btn {
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    margin: 0 1rem;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.buttons .btn:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #8d99ae;
+    padding: 1rem 2rem 1rem 3rem;
+}
+.buttons .btn:nth-child(1) .circle {
+    background-color: #8d99ae;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 100%;
+    margin-right: 1rem;
+    position: absolute;
+    left: 1rem;
+    transition: 0.25s;
+}
+.buttons .btn:nth-child(1) .text {
+    position: relative;
+    left: 0;
+    transition: 0.5s;
+}
+.buttons .btn:nth-child(1):hover {
+    color: #736357;
+}
+.buttons .btn:nth-child(1):hover .circle {
+    -webkit-transform: scale(25);
+    transform: scale(25);
+}
+.buttons .btn:nth-child(1):hover .text {
+    left: -0.5rem;
+}
+.repeat{
+    background: #f8f8f8;
+    color:#736357;
+}
+.repeat>.retext>div{
+    margin-left:10%;
+    margin-top:15%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.repeat>div>div>p{
+    margin-top:10%;
+    margin-bottom:6%;
+}
+.buttons{
+    width:10rem;
+    float:left;
+}
+.buttons>div{
+    height:3rem;
+    margin-left:0 !important;
+}
+
+ 
+.repeat>.retext>div>div::after{
+    content:'';
+    clear:both;
+    display:block;
+}
+.noyour{
+    height:100%;
+}
+.repeat>.retext>div{
+    margin-right:10%;
+}
+@media (min-width:1200px){
+   .noyour{
+       height:37rem;
+       display:flex;
+   }  
+}
+@media (max-width:1200px){
+    .noyour{
+        height:25rem;
+        display:flex;
+    }  
+    .repeat>.retext>div{
+        margin-top:10%;
+    }
+   
+
+ }
+ @media (max-width:992px){
+    .noyour,.repeat>.retext{
+        height:30rem;
+        display:flex;
+    }  
+
+    .repeat>.retext>div{
+        margin-top:-4%;
+      
+    }
+    .repeat>.retext>div>p{
+        margin-top:5%;
+    }
+ }
+ @media (max-width:576px){
+    .noyour,.repeat>.retext{
+        height:20rem;
+        display:flex;
+    }  
+    .repeat>.retext{
+        margin-right:5%;
+    }
+ }
+ /* //点击按钮样式 */
+.cjbtn{
+      position: absolute ;
+      left:31%;
+      top:100%;
+}
+.ctbtn::after{
+    content:'';
+    clear:both;
+    display:block;
+}
+.tab-slider__controls__prev{
+    left:4rem;
+    bottom:2rem;
+    cursor:pointer;
+}
+.tab-slider__controls__prev+span{
+    height:4rem;
+    width: 2px;
+    background: white;
+    left:7.83rem;
+    bottom:0;
+}
+.tab-slider__controls__next{
+    left:9rem;
+    bottom:2rem;
+    color:white;
+    cursor:pointer;
+}
+
+.tab-slider__controls__next svg, .tab-slider__controls__prev svg{
+    fill: #fff;
+    width: 40px;
+    height:30px;
+
+}
