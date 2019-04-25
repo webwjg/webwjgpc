@@ -4,7 +4,7 @@ $(function(){
 
 //发送请求
    $.ajax({
-      url:"http://my2/indexlunbo",
+      url:"my2/indexlunbo",
       type:"get",
       //data:,
       dataType:"json" //JSON.parse()
@@ -35,7 +35,7 @@ $(function(){
 
         // 一楼
   $.ajax({
-     url:"http://my2/indexonefl",
+     url:"my2/indexonefl",
      type:"get",
             //data:,
      dataType:"json" //JSON.parse()
@@ -64,7 +64,7 @@ $(function(){
 //二楼
 
 $.ajax({
-    url:"http://my2/indextwofl",
+    url:"my2/indextwofl",
     type:"get",
     dataType:"json"
      }).then(function(result){
@@ -109,7 +109,7 @@ $.ajax({
  
     //  三楼
  $.ajax({
-        url:"http://my2/indexthreefl",
+        url:"my2/indexthreefl",
         type:"get",
         dataType:"json"
          }).then(function(result){
@@ -223,7 +223,7 @@ anim(thranim,a1,anum);
 
 // 四楼
 $.ajax({
-    url:"http://my2/indexfourfl",
+    url:"my2/indexfourfl",
     type:"get",
     dataType:"json"
      }).then(function(result){
@@ -267,7 +267,7 @@ frimg.click(function(){
     // $this.clone().replaceAll('#fourfloorleft>img');
     console.log( $('#fourfloorleft>img'));
     $('#fourfloorleft>img').attr('src',$this[0].src)
-    //http://127.0.0.1:5500/img/fourfloor7.jpg
+    //127.0.0.1:5500/img/fourfloor7.jpg
     var num=$this[0].src;
     //截取图片的数字
      var sz=num.substr(35,1);
@@ -296,7 +296,7 @@ anim(four2,a,b);
 
 // 五楼
 $.ajax({
-    url:"http://my2/indexfivefl",
+    url:"my2/indexfivefl",
     type:"get",
     dataType:"json"
      }).then(function(result){
@@ -442,7 +442,7 @@ searchvalue.keypress(function(e){
          val.title=searchvalue.val();
          
          $.ajax({
-            url:"http://my2/search",
+            url:"my2/search",
             type:"get",
             data:{val},
             dataType:"json"
@@ -451,7 +451,7 @@ searchvalue.keypress(function(e){
                  //console.log(result.bid);
                  var bid=result.bid
                  if(result.msg==1){
-                    window.location.href='http://127.0.0.1:5500/index/list2detail.html?bid='+bid;
+                    window.location.href='index/list2detail.html?bid='+bid;
                    
                     $('#searchvalue').val('');
                  }else{

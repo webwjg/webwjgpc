@@ -9,7 +9,7 @@ var server=express();
 server.listen(5050);
 server.use(express.static('./my2html'));
 // server.use(express.static('../my2js'));
-// server.use(express.static('./index'));
+server.use(express.static('../index'));
 server.use(express.static('../webwjgpc'));
 
 

@@ -28,9 +28,6 @@ router.post('/my2reg',function(req,res){
             });
             res.write(JSON.stringify(result));
             res.end();
-
-
-
   });
 });
 
