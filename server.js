@@ -7,14 +7,8 @@ const bodyParser=require('body-parser');
 
 var server=express();
 server.listen(5050);
-server.use(express.static('my2html'));
-// server.use(express.static('../my2js'));
-server.use(express.static('index'));
-server.use(express.static('css'));
-server.use(express.static('img'));
-server.use(express.static('js'));
-server.use(express.static('listimg'));
-server.use(express.static('index'));
+server.use(express.static('porem'));
+
 
 // server.use(express.static('../webwjgpc'));
 
