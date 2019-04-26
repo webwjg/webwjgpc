@@ -275,7 +275,7 @@ $.ajax({
      sessionStorage.setItem("yid",result.data);
        console.log(yid)
      if(result.msg==1){
-     location.href=`index/list6car.html`; 
+     location.href=`list6car.html`; 
      }
 
      
