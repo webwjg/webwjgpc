@@ -4,7 +4,7 @@ $(function(){
         var wid=location.search.split("=")[1];
          console.log(wid);
          $.ajax({
-          url:`http://my2`,
+          url:`my2`,
           type:"get",
           data:{wid},
           dataType:"json" //JSON.parse()
